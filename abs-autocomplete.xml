@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="Windows-1252" ?>
+<NotepadPlus>
+	<AutoComplete language="ABS">
+		<Environment ignoreCase="yes" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar = "."/>
+		<KeyWord name="#" />
+		<KeyWord name="any" func="yes">
+			<Overload retVal="" descr="Checks whether any of the characters in str are present in the string.">
+				<Param name="str" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ceil" func="yes">
+			<Overload retVal="number" descr="Converts a string to a number, and then rounds the number up to the closest integer.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="contains" func="yes">
+			<Overload retVal="" descr="Checks whether str is present in the string.This function is deprecated and might be removed in future versions.Use the “in” operator instead.">
+				<Param name="str" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="every" func="yes">
+			<Overload retVal="" descr="Returns true when all elements in the array return true when applied to the function f.">
+				<Param name="f" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="filter" func="yes">
+			<Overload retVal="" descr="Returns a new array with only the elements that returned true when applied to the function f.">
+				<Param name="f" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="find" func="yes">
+			<Overload retVal="" descr="Returns the first element that returns true when applied to the function f.">
+				<Param name="f" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="floor" func="yes">
+			<Overload retVal="" descr="Converts a string to a number, and then rounds the number down to the closest integer. The string must represent a number.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fmt" func="yes">
+			<Overload retVal="" descr="Formats a string (sprintf convention).">
+				<Param name="str" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="index" func="yes">
+			<Overload retVal="" descr="Returns the index at which str is found.">
+				<Param name="str" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="int" func="yes">
+			<Overload retVal="" descr="Converts a string to a number, and then rounds it down to the closest integer. The string must represent a number.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="is_number" func="yes">
+			<Overload retVal="" descr="Checks whether a string can be converted to a number.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="number" func="yes">
+			<Overload retVal="" descr="Converts a string to a number, if possible.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="items" func="yes">
+			<Overload retVal="" descr="Returns an array of [key, value] tuples for each item in the hash (only the first level items are returned).">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="join" func="yes">
+			<Overload retVal="" descr="Joins the elements of the array by separator.">
+				<Param name="separator" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="json" func="yes">
+			<Overload retVal="" descr="Parses the string as JSON, returning a hash.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="keys" func="yes">
+			<Overload retVal="" descr="Returns an array of the keys in the original array. On hash returns an array of keys to the hash (only the first level keys are returned).">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="last_index" func="yes">
+			<Overload retVal="" descr="Returns the last index at which str is found.">
+				<Param name="str" />
+			</Overload>
+		</KeyWord>		
+		<KeyWord name="len" func="yes">
+			<Overload retVal="" descr="Returns the length of a string or array.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="lines" func="yes">
+			<Overload retVal="" descr="Splits a string by newline.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="lower" func="yes">
+			<Overload retVal="" descr="Lowercases the string.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="map" func="yes">
+			<Overload retVal="" descr="Modifies the array by applying the function f to all its elements.">
+				<Param name="f" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="number" func="yes">
+			<Overload retVal="" descr="Converts a string to a number, if possible.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pop" func="yes">
+			<Overload retVal="" descr="Pops the last element from the array, returning it. On hash removes and returns the matching {'key': value} item from the hash. If the key does not exist hash.pop('key') returns null.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="prefix" func="yes">
+			<Overload retVal="" descr="Checks whether the string has the given prefix.">
+				<Param name="str" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="push" func="yes">
+			<Overload retVal="" descr="Pushes an element at the end of the array.">
+				<Param name="element" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="repeat" func="yes">
+			<Overload retVal="" descr="Creates a new string, repeating the original one i times.">
+				<Param name="i" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="replace" func="yes">
+			<Overload retVal="" descr="Replaces occurrences of x with y, n times. If n is negative it will replace all occurrencies.">
+				<Param name="x" />
+				<Param name="y" />
+				<Param name="n" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="reverse" func="yes">
+			<Overload retVal="" descr="Reverses the order of the elements in the array.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="round" func="yes">
+			<Overload retVal="" descr="Converts a string to a number, and then rounds the number with the given precision.The precision argument is optional, and set to 0 by default.The string must represent a number.">
+				<Param name="precision" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="shift" func="yes">
+			<Overload retVal="" descr="Removes the first elements from the array, and returns it.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="slice" func="yes">
+			<Overload retVal="" descr="Returns a portion of the string, from start to end. On arrays returns a portion of the array, from start to end.">
+				<Param name="start" />
+				<Param name="end" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="some" func="yes">
+			<Overload retVal="" descr="Returns true when at least one of the elements in the array returns true when applied to the function f.">
+				<Param name="f" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sort" func="yes">
+			<Overload retVal="" descr="Sorts the array. Only supported on arrays of only numbers or only strings.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="split" func="yes">
+			<Overload retVal="" descr="Splits a string by separator.">
+				<Param name="separator" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="str" func="yes">
+			<Overload retVal="" descr="Returns the string representation of the object. Applies to array, hash, number, function and string.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="suffix" func="yes">
+			<Overload retVal="" descr="Checks whether the string has the given suffix.">
+				<Param name="str" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sum" func="yes">
+			<Overload retVal="" descr="Sums the elements of the array. Only supported on arrays of numbers.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="title" func="yes">
+			<Overload retVal="" descr="Titlecases the string.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="trim" func="yes">
+			<Overload retVal="" descr="Removes empty spaces from the beginning and end of the string.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="trim_by" func="yes">
+			<Overload retVal="" descr="Removes str from the beginning and end of the string.">
+				<Param name="str" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="upper" func="yes">
+			<Overload retVal="" descr="Uppercases the string.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="values" func="yes">
+			<Overload retVal="" descr="Returns an array of values in the hash (only the first level values are returned).">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="arg" func="yes">
+			<Overload retVal="" descr="Returns the nth argument to the current script.">
+				<Param name="n" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cd" func="yes">
+			<Overload retVal="" descr="Sets the current working directory to homeDir or the given path in both Linux and Windows. Note that the path may have a '~/' prefix which will be replaced with 'homeDir/'. Also, in Windows, any '/' path separator will be replaced with '\' and path names are not case-sensitive.Returns the '/fully/expanded/path' to the new current working directory and path.ok. If path.ok is false, that means there was an error changing directory.">
+				<Param name="path" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="echo" func="yes">
+			<Overload retVal="" descr="Prints the given variable.">
+				<Param name="var" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="env" func="yes">
+			<Overload retVal="" descr="Returns the str environment variable.">
+				<Param name="str" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="eval" func="yes">
+			<Overload retVal="" descr="Evaluates the str as ABS code.">
+				<Param name="str" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="exit" func="yes">
+			<Overload retVal="" descr="Exists the script with status code.">
+				<Param name="code" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="flag" func="yes">
+			<Overload retVal="" descr="Returns the value of a command-line flag. Both the --flag and -flag form are accepted, and you can specify values with --flag=x as well as --flag x..">
+				<Param name="flag" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pwd" func="yes">
+			<Overload retVal="" descr="Returns the path to the current working directory – equivalent to env('PWD').If executed from a script this will initially be the directory containing the script.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="rand" func="yes">
+			<Overload retVal="" descr="Returns a random integer number between 0 and max.">
+				<Param name="max" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sleep" func="yes">
+			<Overload retVal="" descr="Halts the process for as many ms you specified.">
+				<Param name="ms" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="source" func="yes">
+			<Overload retVal="" descr="Evaluates the script at path_to_file in the context of the ABS global environment.This is most useful for creating library functions in a script that can be used by many other scripts. Often the library functions are loaded via the ABS Init File ~/.absrc.">
+				<Param name="path_to_file" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="stdin" func="yes">
+			<Overload retVal="" descr="Reads from the stdin.">
+			</Overload>
+		</KeyWord>
+		<KeyWord name="type" func="yes">
+			<Overload retVal="" descr="Returns the type if the given variable.">
+				<Param name="var" />
+			</Overload>
+		</KeyWord>
+	</AutoComplete>
+</NotepadPlus>
