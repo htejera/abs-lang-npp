@@ -1,7 +1,5 @@
 # abs-lang-npp
-A simple Notepad++ user defined language file for [ABS](https://www.abs-lang.org/) programming language syntax to be used with default style.
-
-
+A simple Notepad++ user defined language and keyword auto-completion definition files for [ABS](https://www.abs-lang.org/) programming language syntax to be used with default style.
 
 ![alt text](https://raw.githubusercontent.com/htejera/abs-lang-npp/master/capture.jpg)
 
@@ -10,6 +8,8 @@ A simple Notepad++ user defined language file for [ABS](https://www.abs-lang.org
 This project provides a very simple user defined language file for [Notepad++](https://notepad-plus-plus.org/) that does some basic syntax highlighting for ABS scripts. 
 
 ## Usage
+
+### User Defined Language 
 
 Installation instructions (taken from Notepad++ [site](http://docs.notepad-plus-plus.org/index.php?title=User_Defined_Language_Files)):
 
@@ -23,4 +23,10 @@ To add syntax colouring from one of these, the simplest way is o open the User D
 * Close Notepad++.
   
 Your Languages menu will show the newly added language at the bottom, next time you launch Notepad++.
+
+### Auto-completion Definition 
+
+1. On Notepad++ you can find settings by follwing the below: *Settings -> Preferences -> Auto-Completion -> Enable auto-completion on each input.*
+
+2. Rename the [abs-autocomplete.xml](https://github.com/htejera/abs-lang-npp/blob/master/abs-autocomplete.xml) file to **abs.xml**. Copy this file on the **autoCompletion** folder, to be found in the Notepad++ Install Folder, most often *C:\Program Files\Notepad++*
 
