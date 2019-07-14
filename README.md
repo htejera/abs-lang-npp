@@ -1,6 +1,10 @@
 # abs-lang-npp
 A simple Notepad++ user defined language file for [ABS](https://www.abs-lang.org/) programming language syntax to be used with default style.
 
+
+
+![alt text](https://raw.githubusercontent.com/htejera/abs-lang-npp/master/capture.jpg)
+
 ## Overview
 
 This project provides a very simple user defined language file for [Notepad++](https://notepad-plus-plus.org/) that does some basic syntax highlighting for ABS scripts. 
